@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tamanho Box</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            /* considera padding e borda no tamanho total, diferente do parâmetro content-box 
+            essa é uma situação legítima para utilizar o * para definir um comportamento para todo o documento */
+        }
+
+        body {
+            font-size: 45px;
+            margin: 0;
+        }
+
+        div {
+            background-color: deepskyblue;
+            width: 100%;
+            height: 300px;
+            padding: 100px;
+            border: solid 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        O tamanho do Box é...
+    </div>
+</body>
+
+</html>

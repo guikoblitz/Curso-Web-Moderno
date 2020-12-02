@@ -1,0 +1,5 @@
+no terminal:
+INICIAR O SERVIDOR -> http-server .
+DESABILITAR CACHE -> http-server -c-1
+ACESSAR O SERVIDOR NO BROWSER: localhost:8080
+
